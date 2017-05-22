@@ -4,7 +4,7 @@ export default class TrackStrip extends Component {
   render () {
     return (
       <tr>
-        { this.props.renderTrack(this.props.playerIndex) }
+        { this.props.renderCells(this.props.playerIndex) }
       </tr>
     )
   } 
